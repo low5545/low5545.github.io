@@ -6,7 +6,7 @@ group :jekyll_plugins do
                          # Reference: https://github.com/github/pages-gem/issues/283
     gem 'jekyll'
     gem 'kramdown-parser-gfm'
-    gem 'jekyll-email-protect'
+    # gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'

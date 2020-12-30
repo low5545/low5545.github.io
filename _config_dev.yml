@@ -119,7 +119,7 @@ exclude: [vendor, bin, Gemfile*]
 
 # Plug-ins
 plugins:
-  - jekyll-email-protect
+  # - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll/scholar
