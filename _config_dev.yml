@@ -115,7 +115,7 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
-exclude: [vendor, bin, Gemfile*, README.md]
+exclude: [vendor, bin, Gemfile*]
 
 # Plug-ins
 plugins:
