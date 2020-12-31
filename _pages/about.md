@@ -2,23 +2,29 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: # >
+    # <p>555 your office number</p>
+    # <p>123 your address street</p>
+    # <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi :wave:! I am from Kuala Lumpur, Malaysia :malaysia:. I am currently a Ph.D. student at the [Institute of Data Science, National University of Singapore](http://ids.nus.edu.sg){:target="\_blank"} and my supervisor is [Asst. Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/){:target="\_blank"}. I obtained my B.Eng. (Hons.) degree :mortar_board: in Computer Engineering from National University of Singapore in 2020.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In general, I am interested in the research and development of intelligent robots :robot:. I firmly believe that their introduction will immensely improve the quality of our everyday lives, especially through the automation of mundane, repetitive and laborious tasks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current research focuses on the aspect of perception, particularly vision :eyes:. I hope to progress towards complete scene understanding, and ultimately human-level semantic understanding of the real world :earth_asia:.
+
+My areas of interest include 3D computer vision, embodied AI, efficient learning and active learning.
+
+{% comment %} 
+My recent works are on?
+{% endcomment %} 
