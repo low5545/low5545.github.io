@@ -30,6 +30,7 @@ last_updated: true # set to true if you want to display last updated in the foot
 
 navbar_fixed: false
 footer_fixed: true
+navbar_enabled: false
 
 # Dimensions
 max_width: 800px
