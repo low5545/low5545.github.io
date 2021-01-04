@@ -35,6 +35,16 @@ a, table.table a {
   text-align: center;
 }
 
+// About
+.clearfix {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.same-line {
+  display: inline-block;
+}
+
 // Profile
 
 .profile {
@@ -54,12 +64,18 @@ a, table.table a {
   }
 }
 
+// when in widescreen mode
 @media (min-width: 576px) {
   .profile {
     width: 30%;
     .address {
       p { display: block; }
     }
+  }
+
+  // prevent text wrapping under profile picture
+  .clearfix {
+    overflow: hidden;
   }
 }
 
@@ -151,16 +167,6 @@ a, table.table a {
   .bottom-bar {
     transform: rotate(0);
   }
-}
-
-// About
-.clearfix {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.same-line {
-  display: inline-block;
 }
 
 // News
